@@ -1,0 +1,72 @@
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.header__title{
+    width: 112.344px;
+height: 22.344px;
+flex-shrink: 0;
+fill: #2C2C2C;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav__items{
+    display: flex;
+    gap: 100px;
+    list-style-type: none;
+}
+.nav__item{
+    color: #2C2C2C;
+text-align: center;
+font-family: Noto Serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.btn{
+    width: 113px;
+height: 48px;
+flex-shrink: 0;
+border-radius: 10px;
+background: var(--Gradien-2, linear-gradient(133deg, #FFC301 9.31%, #FF6533 79.4%));
+box-shadow: 15px 15px 35px 0px rgba(226, 142, 15, 0.18);
+color: #F4F4F4;
+font-family: Montserrat;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 175.4%; /* 35.08px */
+letter-spacing: 0.4px;
+}
+.main{
+    background-image: url(hero-banner\ 2.png);
+    width: 100%;
+    height: 1000px;
+
+}
+
+.main__title{
+    color: #2C2C2C;
+font-family: Noto Serif;
+font-size: 84px;
+font-style: normal;
+font-weight: 700;
+line-height: 112px; /* 133.333% */  
+      padding-top:270px;
+
+}
+.btn__2{
+    width: 200px;
+height: 60px;
+flex-shrink: 0;
+background: #FF715B;
+border: none;
+
+}
